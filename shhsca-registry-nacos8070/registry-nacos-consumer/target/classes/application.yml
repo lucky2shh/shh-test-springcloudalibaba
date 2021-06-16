@@ -1,0 +1,12 @@
+server:
+  port: 8071
+
+spring:
+  application:
+    name: shhsca-registry-nacos-consumer
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always #使用色彩输出提高日志可读性
+

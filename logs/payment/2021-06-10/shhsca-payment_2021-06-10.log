@@ -1,0 +1,59 @@
+2021-06-10 00:25:11 -Starting PaymentApplication on Lenovo-Y40 with PID 16028 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 00:25:11 -The following profiles are active: dev
+2021-06-10 00:25:23 -Started PaymentApplication in 15.187 seconds (JVM running for 29.132)
+2021-06-10 00:32:00 -Starting PaymentApplication on Lenovo-Y40 with PID 14056 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 00:32:00 -The following profiles are active: dev
+2021-06-10 00:32:10 -Started PaymentApplication in 14.696 seconds (JVM running for 23.394)
+2021-06-10 00:32:58 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 00:34:00 -add status: 1
+2021-06-10 01:05:31 -Starting PaymentApplication on Lenovo-Y40 with PID 11256 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 01:05:31 -The following profiles are active: dev
+2021-06-10 01:05:48 -Started PaymentApplication in 25.297 seconds (JVM running for 33.376)
+2021-06-10 01:11:57 -Starting PaymentApplication on Lenovo-Y40 with PID 11256 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 01:11:57 -The following profiles are active: dev
+2021-06-10 01:12:00 -Started PaymentApplication in 9.833 seconds (JVM running for 405.298)
+2021-06-10 01:28:59 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 01:33:08 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 01:40:34 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 01:44:39 -Starting PaymentApplication on Lenovo-Y40 with PID 14404 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 01:44:39 -The following profiles are active: dev
+2021-06-10 01:45:01 -Started PaymentApplication in 24.732 seconds (JVM running for 30.139)
+2021-06-10 01:47:39 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 01:51:00 -Starting PaymentApplication on Lenovo-Y40 with PID 14404 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 01:51:00 -The following profiles are active: dev
+2021-06-10 01:51:03 -Started PaymentApplication in 2.388 seconds (JVM running for 391.715)
+2021-06-10 01:51:41 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 01:52:21 -add status: 1
+2021-06-10 01:53:45 -add status: 1
+2021-06-10 01:54:46 -Starting PaymentApplication on Lenovo-Y40 with PID 14404 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 01:54:46 -The following profiles are active: dev
+2021-06-10 01:54:49 -Started PaymentApplication in 3.607 seconds (JVM running for 617.833)
+2021-06-10 02:44:43 -Starting PaymentApplication on Lenovo-Y40 with PID 4380 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 02:44:43 -The following profiles are active: dev
+2021-06-10 02:44:56 -Started PaymentApplication in 16.402 seconds (JVM running for 24.839)
+2021-06-10 02:50:44 -add status: Payment(id=1, serial=abcdefghijklmn)
+2021-06-10 02:51:05 -add status: 1
+2021-06-10 02:52:20 -add status: Payment(id=2, serial=shh666)
+2021-06-10 02:52:38 -add status: 1
+2021-06-10 02:52:48 -add status: 1
+2021-06-10 02:53:49 -add status: 1
+2021-06-10 03:00:00 -add status: Payment(id=2, serial=shh666)
+2021-06-10 03:08:15 -add status: Payment(id=2, serial=shh666)
+2021-06-10 07:15:32 -Starting PaymentApplication on Lenovo-Y40 with PID 11392 (D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba\shhsca-payment8060\target\classes started by shihao in D:\Cache Files\IntelliJ_IDEA WorkSpace\Projects\MY DEMO\SHHSpringCloudAlibaba)
+2021-06-10 07:15:32 -The following profiles are active: dev
+2021-06-10 07:15:43 -Started PaymentApplication in 13.091 seconds (JVM running for 19.005)
+2021-06-10 07:29:52 -add status: Payment(id=2, serial=shh666)
+2021-06-10 10:34:05 -The following profiles are active: dev
+2021-06-10 10:35:18 -Started PaymentApplication in 100.269 seconds (JVM running for 117.772)
+2021-06-10 10:45:34 -The following profiles are active: dev
+2021-06-10 10:46:30 -Started PaymentApplication in 83.927 seconds (JVM running for 97.541)
+2021-06-10 11:02:53 -The following profiles are active: dev
+2021-06-10 11:03:34 -Started PaymentApplication in 70.618 seconds (JVM running for 86.657)
+2021-06-10 11:31:35 -add status: Payment(id=2, serial=shh666)
+2021-06-10 11:32:36 -add status: 1
+2021-06-10 11:40:09 -The following profiles are active: dev
+2021-06-10 11:40:28 -Started PaymentApplication in 33.102 seconds (JVM running for 2300.198)
+2021-06-10 12:54:36 -The following profiles are active: dev
+2021-06-10 12:55:01 -Started PaymentApplication in 41.047 seconds (JVM running for 6773.33)
+2021-06-10 13:11:00 -The following profiles are active: dev
+2021-06-10 13:11:59 -Started PaymentApplication in 88.501 seconds (JVM running for 7790.952)

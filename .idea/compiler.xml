@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shhsca-wms8050" />
+        <module name="registry-eureka-server" />
+        <module name="service-config-springcloud-config8092" />
+        <module name="registry-eureka-provider2" />
+        <module name="service-config-springcloud-config-client8093" />
+        <module name="registry-zookeeper-server" />
+        <module name="registry-eureka-comsumer" />
+        <module name="shhsca-commons" />
+        <module name="service-gateway-springcloud-gateway8091" />
+        <module name="shhsca-order8020" />
+        <module name="shhsca-monitor-sentinel9000" />
+        <module name="shhsca-payment8060" />
+        <module name="service-config-springcloud-bus8094" />
+        <module name="shhsca-credit8040" />
+        <module name="service-degradation-hystrix-dashboard8090" />
+        <module name="registry-consul-client" />
+        <module name="registry-nacos-consumer" />
+        <module name="registry-nacos-provider" />
+        <module name="nacos-config" />
+        <module name="shhsca-stock8030" />
+        <module name="registry-eureka-provider" />
+        <module name="registry-consul-server" />
+        <module name="registry-zookeeper-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service-config-springcloud-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-config" options="-parameters" />
+      <module name="registry-consul-client" options="-parameters" />
+      <module name="registry-consul-server" options="-parameters" />
+      <module name="registry-eureka-comsumer" options="-parameters" />
+      <module name="registry-eureka-provider" options="-parameters" />
+      <module name="registry-eureka-provider2" options="-parameters" />
+      <module name="registry-eureka-server" options="-parameters" />
+      <module name="registry-nacos-consumer" options="-parameters" />
+      <module name="registry-nacos-provider" options="-parameters" />
+      <module name="registry-zookeeper-client" options="-parameters" />
+      <module name="registry-zookeeper-server" options="-parameters" />
+      <module name="service-config-springcloud-bus8094" options="-parameters" />
+      <module name="service-config-springcloud-config-client8093" options="-parameters" />
+      <module name="service-config-springcloud-config8092" options="-parameters" />
+      <module name="service-degradation-hystrix-dashboard8090" options="-parameters" />
+      <module name="service-gateway-springcloud-gateway8091" options="-parameters" />
+      <module name="shhsca-commons" options="-parameters" />
+      <module name="shhsca-credit8040" options="-parameters" />
+      <module name="shhsca-monitor-sentinel9000" options="-parameters" />
+      <module name="shhsca-order8020" options="-parameters" />
+      <module name="shhsca-payment8060" options="-parameters" />
+      <module name="shhsca-registry-consul8070" options="" />
+      <module name="shhsca-registry-eureka8070" options="" />
+      <module name="shhsca-registry-zookeeper8070" options="" />
+      <module name="shhsca-service-config8092" options="" />
+      <module name="shhsca-service-degradation8090" options="" />
+      <module name="shhsca-stock8030" options="-parameters" />
+      <module name="shhsca-wms8050" options="-parameters" />
+    </option>
+  </component>
+</project>

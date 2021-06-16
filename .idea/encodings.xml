@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/shhsca-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-credit8040/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-monitor-sentinel9000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-order8020/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-payment8060/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-consul8070/registry-consul-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-consul8070/registry-consul-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-consul8070/registry-consul-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-eureka8070/registry-eureka-comsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-eureka8070/registry-eureka-comsumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-eureka8070/registry-eureka-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-eureka8070/registry-eureka-provider2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-eureka8070/registry-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-nacos8070/nacos-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-nacos8070/registry-nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-nacos8070/registry-nacos-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-nacos8070/registry-nacos-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-nacos8070/registry-nacos-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-zookeeper8070/registry-zookeeper-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-zookeeper8070/registry-zookeeper-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-registry-zookeeper8070/registry-zookeeper-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-config8092/service-config-springcloud-bus8094/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-config8092/service-config-springcloud-config-client8093/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-config8092/service-config-springcloud-config-client8093/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-config8092/service-config-springcloud-config8092/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-degradation8090/service-degradation-hystrix-dashboard8090/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-gateway8091/service-gateway-springcloud-gateway8091/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-service-gateway8091/service-gateway-springcloud-gateway8091/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-stock8030/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-wms8050/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shhsca-wms8050/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

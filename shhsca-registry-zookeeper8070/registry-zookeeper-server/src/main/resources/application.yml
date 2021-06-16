@@ -1,0 +1,9 @@
+server:
+  port: 8070
+
+spring:
+  application:
+    name: shhsca-registry-zookeeper-service
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181

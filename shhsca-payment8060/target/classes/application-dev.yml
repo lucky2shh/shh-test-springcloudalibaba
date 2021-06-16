@@ -1,0 +1,50 @@
+spring:
+  datasource: # 数据源（mysql、oracle...）
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/shhsca?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    #driverClassName: oracle.jdbc.OracleDriver
+    #url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: root
+    password: shH@68.cn    # 3306 root/hsh666
+    initialSize: 1
+    minIdle: 3
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,slf4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    #useGlobalDataSourceStat: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 5f90237f-3796-47e9-9afd-258fba2843ab
+        group: shhsca
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+        port: 8719
+
+# eureka client
+#eureka:
+#  instance:
+#    instance-id: shhsca-eureka
+#    prefer-ip-address: true                  # 访问路径可以显示IP
+#    lease-renewal-interval-in-seconds: 1     # Eureka客户端发送心跳至服务端的时间间隔（单位秒，默认30秒）
+#    lease-expiration-duration-in-seconds: 2  # Eureka服务端收到最后一次心跳后的等待时间上限，超过则删除该服务（单位秒，默认90秒）
+#  client:
+#    register-with-eureka: true  # false表示不将自己注入到注册中心
+#    fetch-registry: true        # false表示自己就是服务中心
+#    service-url:
+#      defaultZone: http://localhost:8070/eureka/
+
+
+

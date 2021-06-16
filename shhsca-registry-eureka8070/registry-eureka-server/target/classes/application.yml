@@ -1,0 +1,15 @@
+server:
+  port: 8070
+
+# registry-eureka server
+eureka:
+  instance:
+    hostname: shhsca-registry-eureka
+  client:
+    register-with-eureka: false  # false表示不将自己注入到注册中心
+    fetch-registry: false        # false表示自己就是服务中心
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    enable-self-preservation: false          # false表示关闭自我保护机制，保证不可用的服务会被及时删除(默认true)
+    eviction-interval-timer-in-ms: 2000      # 心跳时间(单位毫秒，默认0)

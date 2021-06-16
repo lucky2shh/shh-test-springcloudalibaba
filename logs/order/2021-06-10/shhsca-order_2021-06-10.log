@@ -1,0 +1,41 @@
+2021-06-10 01:07:59 -The following profiles are active: dev
+2021-06-10 01:16:31 -The following profiles are active: dev
+2021-06-10 01:16:54 -Started OrderServiceApplication in 43.276 seconds (JVM running for 51.308)
+2021-06-10 01:23:03 -The following profiles are active: dev
+2021-06-10 01:23:38 -Started OrderServiceApplication in 53.181 seconds (JVM running for 62.62)
+2021-06-10 01:28:03 -The following profiles are active: dev
+2021-06-10 01:28:47 -Started OrderServiceApplication in 64.353 seconds (JVM running for 73.423)
+2021-06-10 01:32:36 -The following profiles are active: dev
+2021-06-10 01:32:55 -Started OrderServiceApplication in 38.047 seconds (JVM running for 45.931)
+2021-06-10 01:46:38 -The following profiles are active: dev
+2021-06-10 01:47:05 -Started OrderServiceApplication in 43.482 seconds (JVM running for 50.896)
+2021-06-10 02:02:20 -The following profiles are active: dev
+2021-06-10 02:02:37 -Started OrderServiceApplication in 30.938 seconds (JVM running for 36.367)
+2021-06-10 02:07:24 -The following profiles are active: dev
+2021-06-10 02:07:47 -Started OrderServiceApplication in 38.58 seconds (JVM running for 46.747)
+2021-06-10 02:45:19 -The following profiles are active: dev
+2021-06-10 02:46:14 -The following profiles are active: dev
+2021-06-10 02:46:32 -Started OrderApplication in 35.063 seconds (JVM running for 41.388)
+2021-06-10 02:48:40 -The following profiles are active: dev
+2021-06-10 02:49:19 -Started OrderApplication in 62.149 seconds (JVM running for 69.756)
+2021-06-10 02:57:30 -The following profiles are active: dev
+2021-06-10 02:58:47 -The following profiles are active: dev
+2021-06-10 02:59:07 -Started OrderApplication in 31.734 seconds (JVM running for 37.791)
+2021-06-10 03:07:43 -The following profiles are active: dev
+2021-06-10 03:08:02 -Started OrderApplication in 33.491 seconds (JVM running for 40.213)
+2021-06-10 07:22:06 -The following profiles are active: dev
+2021-06-10 07:22:33 -Started OrderApplication in 41.228 seconds (JVM running for 48.408)
+2021-06-10 07:26:14 -The following profiles are active: dev
+2021-06-10 07:26:34 -Started OrderApplication in 34.226 seconds (JVM running for 42.131)
+2021-06-10 07:30:36 -order to payment: Payment(id=null, serial=610730)
+2021-06-10 10:52:03 -The following profiles are active: dev
+2021-06-10 11:14:17 -The following profiles are active: dev
+2021-06-10 11:23:38 -The following profiles are active: dev
+2021-06-10 11:24:07 -Started OrderApplication in 43.287 seconds (JVM running for 58.41)
+2021-06-10 11:28:35 -The following profiles are active: dev
+2021-06-10 11:29:31 -Started OrderApplication in 83.016 seconds (JVM running for 94.304)
+2021-06-10 11:32:34 -order to payment: Payment(id=null, serial=6101132)
+2021-06-10 11:41:19 -The following profiles are active: dev
+2021-06-10 11:41:40 -Started OrderApplication in 35.15 seconds (JVM running for 823.715)
+2021-06-10 11:42:52 -The following profiles are active: dev
+2021-06-10 11:43:41 -Started OrderApplication in 67.886 seconds (JVM running for 77.476)

@@ -1,0 +1,21 @@
+server:
+  port: 8060
+
+logging:
+  config: classpath:logback-spring.xml
+
+spring:
+  application:
+    name: shhsca-payment-service
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always #使用色彩输出提高日志可读性
+
+# MyBatis
+mybatis:
+  mapper-locations: classpath:/mappers/*Mapper.xml
+  type-aliases-package: cn.shh.demo.sca.payment.entity
+  configuration:
+    map-underscore-to-camel-case: true # 开启驼峰命名

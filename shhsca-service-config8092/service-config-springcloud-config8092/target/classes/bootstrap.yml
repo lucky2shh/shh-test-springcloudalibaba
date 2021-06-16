@@ -1,0 +1,31 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: shhsca-ConfigCenter-SpringCloudConfig
+  cloud:
+    config:
+      server:
+        git:
+#          username: shhz21
+#          password: shH2021@gE3686688.)
+          uri: https://gitee.com/hshz21/shhsca-configcenter.git
+          default-label: dev
+  rabbitmq:
+    addresses: 127.0.0.1:5672
+    username: rmq_shh
+    password: shh666
+    virtual-host: /shhsca
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+# rabbitmq相关配置，暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

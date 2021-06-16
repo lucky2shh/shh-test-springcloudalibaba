@@ -1,0 +1,14 @@
+server:
+  port: 8020
+
+logging:
+  config: classpath:logback-spring.xml
+
+spring:
+  application:
+    name: shhsca-order-service
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always #使用色彩输出提高日志可读性

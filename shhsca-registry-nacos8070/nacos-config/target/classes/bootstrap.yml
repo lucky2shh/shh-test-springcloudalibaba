@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: shhsca-config-nacos-client
+  output:
+    ansi:
+      enabled: always #使用色彩输出提高日志可读性
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        namespace: 5f90237f-3796-47e9-9afd-258fba2843ab
+        group: shhsca
+        file-extension: yaml
+
+
+# nacos配置中心DataID为：shhsca-config-nacos-client-dev.yaml

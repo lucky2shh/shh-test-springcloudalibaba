@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 5f90237f-3796-47e9-9afd-258fba2843ab
+        group: shhsca
+
+
+# management
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

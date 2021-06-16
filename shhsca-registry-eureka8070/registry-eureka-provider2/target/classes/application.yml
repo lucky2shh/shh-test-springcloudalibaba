@@ -1,0 +1,20 @@
+server:
+  port: 8072
+
+spring:
+  application:
+    name: shhsca-registry-eureka-provider
+
+# registry-eureka client
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    prefer-ip-address: true                  # 访问路径可以显示IP
+    lease-renewal-interval-in-seconds: 1     # Eureka客户端发送心跳至服务端的时间间隔（单位秒，默认30秒）
+    lease-expiration-duration-in-seconds: 2  # Eureka服务端收到最后一次心跳后的等待时间上限，超过则删除该服务（单位秒，默认90秒）
+  client:
+    register-with-eureka: true  # false表示不将自己注入到注册中心
+    fetch-registry: true        # false表示自己就是服务中心
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+

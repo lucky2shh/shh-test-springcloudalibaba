@@ -1,0 +1,28 @@
+server:
+  port: 8094
+
+spring:
+  application:
+    name: shhsca-ConfigCenter-SpringCloudBus
+  cloud:
+    config:
+      label: dev
+      name: application
+      profile: dev
+      uri: http://localhost:8092
+  rabbitmq:
+    addresses: 127.0.0.1:5672
+    username: rmq_shh
+    password: shh666
+    virtual-host: /shhsca
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

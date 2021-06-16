@@ -1,0 +1,32 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: shhsca-ServiceGateway-SpringCloudGateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true   # 开启从注册中心动态创建路由的功能
+      routes:
+        - id: eureka-provider
+          uri: lb://SHHSCA-REGISTRY-EUREKA-PROVIDER
+          predicates:
+            - Path=/eureka-provider/hystrix/ok/**
+        - id: eureka-provider2
+          uri: lb://SHHSCA-REGISTRY-EUREKA-PROVIDER
+          predicates:
+            - Path=/eureka-provider/hystrix/to/**     # 只有该路径才可访问
+#            - After=2021-06-13T23:54:34.832+08:00[Asia/Shanghai]    # 在此时间之后才能访问
+#            - Cookie=username,shh        # curl http://eureka-provider/hystrix/to/** --cookie "username=shh"
+#            - Header=X-Request-Id, \d+   # curl http://eureka-provider/hystrix/to/** -H "X-Request-Id:123"
+
+eureka:
+  instance:
+    hostname: shhsca-ServiceGateway-SpringCloudGateway
+  client:
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:8070/eureka/
